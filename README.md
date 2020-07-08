@@ -1,4 +1,4 @@
 # shen blog
 Simple blog build using ReactJs  
-Deploy on Heroku  
+Deploying on Heroku  
 ### [View Project](https://shen-blog.herokuapp.com/)

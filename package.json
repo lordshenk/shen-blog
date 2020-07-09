@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "shen blog",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "simple blog build using reactjs",
   "keywords": [
     "react",
     "starter"

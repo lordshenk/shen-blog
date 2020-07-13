@@ -1,14 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { useParams } from "react-router";
+import ScrollTopOnMount from "./ScrollTopOnMount";
 
 export default function BlogContent(props) {
   const { id } = useParams();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <Container>
+      <ScrollTopOnMount />
       <Row className="justify-content-center my-5">
         <Col sm="8">
           <img
